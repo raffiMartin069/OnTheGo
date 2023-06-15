@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TransactController">
+   <children>
+      <BorderPane prefHeight="407.0" prefWidth="600.0">
+         <left>
+            <AnchorPane prefHeight="407.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#257b79" height="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="239.0" />
+                  <ImageView fitHeight="246.0" fitWidth="208.0" layoutX="16.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@QR.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="68.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="54.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+63 915-8198-483">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="67.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gcash Number">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="407.0" prefWidth="369.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="400.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="370.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.18039216101169586" green="0.6509804129600525" blue="0.6509804129600525" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.7058823704719543" green="0.8274509906768799" blue="0.7019608020782471" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Text layoutX="81.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Details">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="33.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gcash Number:" />
+                  <TextField fx:id="tf_gcachnum" layoutX="132.0" layoutY="120.0" prefHeight="27.0" prefWidth="179.0" promptText="Enter Gcash number" style="-fx-background-color: white; -fx-border-color: #257b79; -fx-border-width: 0 0 2 0;" />
+                  <Text layoutX="59.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reference Number:" wrappingWidth="92.03515625" />
+                  <TextField fx:id="tf_rn" layoutX="131.0" layoutY="188.0" prefHeight="27.0" prefWidth="180.0" promptText="Enter reference number" style="-fx-background-color: white; -fx-border-color: #257b79; -fx-border-width: 0 0 2 0;" />
+                  <Button fx:id="bttn_sendpay" layoutX="119.0" layoutY="300.0" mnemonicParsing="false" onAction="#Payment" prefHeight="33.0" prefWidth="131.0" style="-fx-background-color: #257b79; -fx-cursor: hand; -fx-background-radius: 10;" text="SEND PAYMENT" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="138.0" layoutY="254.0" mnemonicParsing="false" onAction="#back" prefHeight="33.0" prefWidth="94.0" style="-fx-background-color: #257b79; -fx-cursor: hand; -fx-background-radius: 10;" text="BACK" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

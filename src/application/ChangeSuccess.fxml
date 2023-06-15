@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="281.0" prefWidth="433.0" style="-fx-background-color: #b4d3b3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TransactController">
+   <children>
+      <Label layoutX="126.0" layoutY="153.0" text="Please login to your account again" />
+      <Label layoutX="91.0" layoutY="127.0" text="Password Changed Successfully">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="68.0" fitWidth="80.0" layoutX="179.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/image-removebg-preview%20(3).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="181.0" layoutY="194.0" mnemonicParsing="false" onAction="#SwitchToSignIn" style="-fx-background-color: #257b79;" text="Login Now" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#267a78" height="34.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" width="433.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#267875" height="34.0" layoutX="-4.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="439.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="13.0" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="433.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.14901961386203766" green="0.47843137383461" blue="0.47058823704719543" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="13.0" layoutX="-1.0" layoutY="237.0" stroke="BLACK" strokeType="INSIDE" width="433.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.14901961386203766" green="0.47843137383461" blue="0.47058823704719543" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+   </children>
+</AnchorPane>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane fx:id="Splitbg" dividerPositions="0.2483221476510067" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SwitchSceneController">
+  <items>
+      <AnchorPane fx:id="Paybg" prefHeight="468.0" prefWidth="796.0">
+         <children>
+          <AnchorPane fx:id="LOCATION" minHeight="0.0" minWidth="0.0" prefHeight="144.0" prefWidth="796.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="527.0" layoutY="34.0" text="To" textFill="WHITE" AnchorPane.rightAnchor="245.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e374a" height="284.0" layoutX="109.0" layoutY="190.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="5.0" width="583.0" />
+                  <Label layoutX="368.0" layoutY="203.0" prefHeight="27.0" prefWidth="101.0" text="Ticket #" textFill="#fffafa">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="384.0" layoutY="230.0" text="1111011" textFill="#ffecec" />
+                  <Label layoutX="175.0" layoutY="247.0" text="From" textFill="#ffecec">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="175.0" layoutY="266.0" prefHeight="54.0" prefWidth="184.0" text="Cebu City" textFill="#fffafa">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="476.0" layoutY="266.0" prefHeight="54.0" prefWidth="184.0" text="Cebu City" textFill="#fffafa">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="474.0" layoutY="247.0" text="To" textFill="#ffecec" AnchorPane.rightAnchor="305.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="181.0" layoutY="345.0" prefHeight="22.0" prefWidth="65.0" text="1 sit" textFill="#fffafa">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="176.0" layoutY="328.0" text="Quantity:" textFill="#ffecec" />
+                  <Label layoutX="477.0" layoutY="328.0" text="Total:" textFill="#ffecec" />
+                  <Label layoutX="480.0" layoutY="345.0" prefHeight="22.0" prefWidth="65.0" text="100" textFill="#fffafa">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="517.0" layoutY="34.0" prefHeight="87.0" prefWidth="204.0" text=" Cebu" textFill="WHITE" AnchorPane.rightAnchor="73.0">
+                     <font>
+                        <Font name="System Bold" size="72.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="73.0" layoutY="34.0" prefHeight="87.0" prefWidth="204.0" text="Cebu" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="72.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="69.0" layoutY="36.0" text="From" textFill="#fffefe">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="176.0" layoutY="379.0" text="Date:" textFill="#ffecec" />
+                  <Label layoutX="478.0" layoutY="379.0" text="Time:" textFill="#ffecec" />
+                  <Label layoutX="181.0" layoutY="396.0" prefHeight="22.0" prefWidth="65.0" text="1/1/1" textFill="#fffafa">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="480.0" layoutY="396.0" prefHeight="22.0" prefWidth="65.0" text="01:01" textFill="#fffafa">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+    <AnchorPane fx:id="Tcktbg" minHeight="0.0" minWidth="0.0" prefHeight="469.0" prefWidth="796.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e374a" height="214.0" layoutX="130.0" layoutY="72.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="5.0" width="538.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <QuadCurve controlX="25.0" controlY="-47.0" endX="42.0" endY="-17.0" fill="#bae5eb" layoutX="439.0" layoutY="303.0" startX="12.0" startY="-17.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
+            <QuadCurve controlX="27.0" controlY="16.0" endX="42.0" endY="-17.0" fill="#47a9cd" layoutX="439.0" layoutY="89.0" startX="12.0" startY="-17.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </QuadCurve>
+            <Line endX="-36.0" endY="-4.0" layoutX="502.0" layoutY="124.0" startX="-36.0" startY="-23.0" />
+            <Line endX="-36.0" endY="-4.0" layoutX="502.0" layoutY="153.0" startX="-36.0" startY="-23.0" />
+            <Line endX="-36.0" endY="-4.0" layoutX="502.0" layoutY="214.0" startX="-36.0" startY="-23.0" />
+            <Line endX="-36.0" endY="-4.0" layoutX="502.0" layoutY="182.0" startX="-36.0" startY="-23.0" />
+            <Line endX="-36.0" endY="-7.0" layoutX="502.0" layoutY="251.0" startX="-36.0" startY="-28.0" />
+            <Label layoutX="166.0" layoutY="102.0" text="Date" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="166.0" layoutY="133.0" text="----------------&#10;&#10;" textFill="#fffefe">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="166.0" layoutY="192.0" text="Time" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="521.0" layoutY="160.0" text="Customer #" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="524.0" layoutY="102.0" text="Total" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="523.0" layoutY="214.0" text="Ticket #" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="327.0" layoutY="102.0" text="Quantity" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="328.0" layoutY="147.0" text="---------" textFill="#fffefe">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="166.0" layoutY="218.0" text="01:01" textFill="#fffefe">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="524.0" layoutY="121.0" text="100" textFill="#fff3f3" />
+            <Label layoutX="523.0" layoutY="181.0" text="100" textFill="#fff3f3" />
+            <Label layoutX="520.0" layoutY="236.0" text="1001100" textFill="#fff3f3" />
+            <Label layoutX="327.0" layoutY="316.0" text="Slide down to see the payment." />
+            <Button fx:id="button" layoutX="352.0" layoutY="341.0" mnemonicParsing="false" onAction="#SwitchToTickets" prefHeight="42.0" prefWidth="116.0" style="-fx-background-color: #257b79; -fx-background-radius: 10; -fx-cursor: hand;" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Label layoutX="166.0" layoutY="122.0" text="1/1/1" textFill="#fffefe">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="327.0" layoutY="125.0" text="1&#10;" textFill="#fffefe">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+  </items>
+</SplitPane>

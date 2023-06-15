@@ -1,0 +1,27 @@
+
+.custom-alert {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-background-color: #F8F8F8;
+}
+
+.custom-alert .dialog-pane {
+    -fx-background-color: #F8F8F8;
+}
+
+.custom-alert .alert-header {
+    -fx-background-color: #EAEAEA;
+}
+
+.custom-alert .alert-content {
+    -fx-text-fill: #333333;
+}
+
+.custom-alert .button {
+    -fx-background-color: #CCCCCC;
+    -fx-text-fill: #333333;
+}
+
+.custom-alert .button:hover {
+    -fx-background-color: #BBBBBB;
+}

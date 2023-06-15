@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <BorderPane prefHeight="700.0" prefWidth="800.0">
+         <left>
+            <AnchorPane prefHeight="700.0" prefWidth="810.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="729.0" fitWidth="831.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@b4.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="459.0" layoutY="26.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="65.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="About" textFill="#115565">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Button>
+                  <Button layoutX="535.0" layoutY="26.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="55.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Fare" textFill="#115565">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="384.0" layoutY="25.0" mnemonicParsing="false" onAction="#switchToWelcome" prefHeight="50.0" prefWidth="68.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Home" textFill="#115565">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="603.0" layoutY="24.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="101.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Contact Us" textFill="#115565">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="713.0" layoutY="23.0" mnemonicParsing="false" onAction="#switchToLogIn" prefHeight="50.0" prefWidth="66.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Log in" textFill="#115565">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="102.0" fitWidth="114.0" layoutX="12.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@On%20the%20GO1.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#115565" layoutX="63.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ABOUT US" textAlignment="CENTER" wrappingWidth="213.04693603515625">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#115565" layoutX="16.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to our bus reservation system! Enjoy safe and comfortable travel with our experienced professionals. Choose from a wide range of destinations, flexible schedules, and affordable prices that suit your travel needs. Our reliable and efficient service ensures that you arrive at your destination on time. Our buses have comfortable seats, air conditioning, and on-board amenities for a comfortable journey. Our licensed drivers provide a safe and smooth ride. We value your feedback and continuously improve our services to meet your expectations. Contact us for any questions or suggestions. Thank you for choosing our bus reservation system. We look forward to serving you soon!" textAlignment="JUSTIFY" translateX="15.0" wrappingWidth="334.4398193359375" />
+                  <Line endX="23.4000244140625" layoutX="175.0" layoutY="199.0" startX="-93.39999389648438" />
+                  <Button layoutX="465.0" layoutY="655.0" mnemonicParsing="false" onAction="#switchToTeam" style="-fx-background-color: transparent; -fx-cursor: hand;" text="here" textFill="#cef6ff" translateX="-4.5" translateY="0.5">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#cef6ff" layoutX="297.0" layoutY="674.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get to know the team. Click" translateY="1.5">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
