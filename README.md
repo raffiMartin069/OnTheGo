@@ -1,4 +1,4 @@
-UNIVERSITY: CEBU TECHNOLOGICAL UNIVERSITY
+**UNIVERSITY:** CEBU TECHNOLOGICAL UNIVERSITY
 TITLE: ON THE GO
 
     **TEAM MEMBERS**
@@ -9,15 +9,15 @@ TITLE: ON THE GO
     MARCHEL L. NGUJO
     RAFAEL MARTINEZ
 
-  **OnTheGo (OTG)** is a final semester project of BSIT 1st Year Second Semester 1-A-1 Section.
+  **OnTheGo (OTG)** is a final semester project of BSIT 1st Year Second Semester 1-A-1.
 The project aims to address and enhance the ticketing system as well as the pick-up and
 drop off of every passengers in Cebu City, Philippines. Though this project is only used
 and presented in the University, this helps the team to enhance skill in coding and creating
 real world projects.
 
   The landing page of the GUI contains a simple yet elegant design of which where would the personels
-and customers would log in. Upon logging in, it would the enter a next page depending of who was
-using the system. A separate page for customers and personells will be directed. 
+and customers would log in. Upon logging in, it would then enter a next page depending of who was
+using the system. A separate page directing to customer view and personel view. 
 
   Customers can Reserve, Book and Cancel a transaction. They can customize the dates of when will
 they want to travel. Payment on the otherhand is done through online specifically G-Cash QR Code.
